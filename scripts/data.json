@@ -1,0 +1,1208 @@
+[
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://ff104502-3bf8-413f-9987-017d52361029-us-east-1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2023-06-13T16:15:14Z",
+        "dataEndpointUrl": "https://ff104502-3bf8-413f-9987-017d52361029-us-east-1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://ff104502-3bf8-413f-9987-017d52361029-us-east-1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://ff104502-3bf8-413f-9987-017d52361029-us-east-1.apps.astra.datastax.com/api/graphql",
+        "id": "ff104502-3bf8-413f-9987-017d52361029",
+        "info": {
+            "additionalKeyspaces": [
+                "marketdata",
+                "native_todo",
+                "iot"
+            ],
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2023-06-13T16:15:14Z",
+                    "id": "ff104502-3bf8-413f-9987-017d52361029-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/ff104502-3bf8-413f-9987-017d52361029-1/secure-connect-internal-voldemort.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=2a5628b01d04adc72fc5d2f9eab6eb339cbc51f2bae5aa160580b83694d4e4ba",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/ff104502-3bf8-413f-9987-017d52361029-1/secure-connect-proxy-internal-voldemort.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=af575d8a49fd839bfd12569589939f938ff1bbc4659e6066cbd079f0bd92df03",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/ff104502-3bf8-413f-9987-017d52361029-1/secure-connect-proxy-voldemort.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=611d82f2158bbdf36035d491a14bd918aaaa2843fe8c6c8977d3e574e9eea257",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/ff104502-3bf8-413f-9987-017d52361029-1/secure-connect-voldemort.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=f1ee219786cb514bbf4630566e5cf0fa36655842e82dd00fb8c4851a7de60eb3",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "keyspace": "estimates",
+            "keyspaces": [
+                "estimates",
+                "marketdata",
+                "native_todo",
+                "iot"
+            ],
+            "name": "voldemort",
+            "region": "us-east-1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-08-01T17:48:46Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "ad51e58d-4e94-4b65-a926-de6a74122138",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-us-east-2.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2023-12-15T20:03:50Z",
+        "dataEndpointUrl": "https://f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-us-east-2.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-us-east-2.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-us-east-2.apps.astra.datastax.com/api/graphql",
+        "id": "f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f",
+        "info": {
+            "additionalKeyspaces": [
+                "location_sample"
+            ],
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2023-12-15T20:03:50Z",
+                    "id": "f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-2",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-1/secure-connect-internal-jdabello-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=356f4227b9f5f6d0fc822aff38535bd4fefb3315754bc73c2c0664800f38d3c7",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-1/secure-connect-proxy-internal-jdabello-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=122fb068808aceee094ef914644a194e8c597b55b43ef891513f129d8b22a1da",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-1/secure-connect-proxy-jdabello-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c0223436728ce6715ebc213db31cf36bfad7446ae2160a4d431ad47020da7c6f",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/f5b2cde9-fe85-4f31-9ad0-cc051b6edc4f-1/secure-connect-jdabello-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=7565e38ba6c42df3fd592c8516836882bc8b68eed38025d08e7c383df6b1844d",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace",
+                "location_sample"
+            ],
+            "name": "jdabello_vector",
+            "region": "us-east-2",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-12T19:02:19Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "5ed2d508-3a24-4900-8862-1d77990c4fbf",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://d0796416-eb34-434e-9401-45d3b3dd2b95-us-east1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-01-16T18:24:13Z",
+        "dataEndpointUrl": "https://d0796416-eb34-434e-9401-45d3b3dd2b95-us-east1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://d0796416-eb34-434e-9401-45d3b3dd2b95-us-east1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://d0796416-eb34-434e-9401-45d3b3dd2b95-us-east1.apps.astra.datastax.com/api/graphql",
+        "id": "d0796416-eb34-434e-9401-45d3b3dd2b95",
+        "info": {
+            "additionalKeyspaces": [
+                "mnist",
+                "graphrag"
+            ],
+            "capacityUnits": 1,
+            "cloudProvider": "GCP",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "GCP",
+                    "dateCreated": "2024-01-16T18:24:13Z",
+                    "id": "d0796416-eb34-434e-9401-45d3b3dd2b95-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/d0796416-eb34-434e-9401-45d3b3dd2b95-1/secure-connect-internal-pacp.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=9a525b3e868c6854d95b112594d10fa33a4db9b883c875161de66a386dcb57b6",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/d0796416-eb34-434e-9401-45d3b3dd2b95-1/secure-connect-proxy-internal-pacp.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=8b61329f67e1d79ee2fd2c63edf2fbfcc50aef60bea1bde7f9bb61c0a00d9497",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/d0796416-eb34-434e-9401-45d3b3dd2b95-1/secure-connect-proxy-pacp.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=ea817668de8befc37a3154027880179d40129704c19cd9cdbf75bec1b88014f4",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/d0796416-eb34-434e-9401-45d3b3dd2b95-1/secure-connect-pacp.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d4fa55355be4f35b6a94de06241b6d8effbd671a55869d67a0a1b618f222159a",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace",
+                "mnist",
+                "graphrag"
+            ],
+            "name": "pacp",
+            "region": "us-east1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-19T17:49:08Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "910e273f-44b1-4eb1-83b9-ce9e20fb1d68",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://9f3cd1e5-5d53-492d-9973-3bd90c0e5234-us-east-2.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-01-18T06:03:23Z",
+        "dataEndpointUrl": "https://9f3cd1e5-5d53-492d-9973-3bd90c0e5234-us-east-2.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://9f3cd1e5-5d53-492d-9973-3bd90c0e5234-us-east-2.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://9f3cd1e5-5d53-492d-9973-3bd90c0e5234-us-east-2.apps.astra.datastax.com/api/graphql",
+        "id": "9f3cd1e5-5d53-492d-9973-3bd90c0e5234",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2024-01-18T06:03:23Z",
+                    "id": "9f3cd1e5-5d53-492d-9973-3bd90c0e5234-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-2",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/9f3cd1e5-5d53-492d-9973-3bd90c0e5234-1/secure-connect-internal-hagrid-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=401a1a1f82a8c50c84a1023bb6866d383d2fc6f84c1c14855c69d48cfe9ff66c",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/9f3cd1e5-5d53-492d-9973-3bd90c0e5234-1/secure-connect-proxy-internal-hagrid-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=702dfeb34adb434d4c521e10828eaeebdae9c4fe0ee040d2f54610c9d97fd1f6",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/9f3cd1e5-5d53-492d-9973-3bd90c0e5234-1/secure-connect-proxy-hagrid-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c6864315644940fb469998ba5f1d98627fb70a5f2f06fd368c64c2852cbd58ff",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/9f3cd1e5-5d53-492d-9973-3bd90c0e5234-1/secure-connect-hagrid-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=ba4d3695a366ec7277c13cb492212e996763125bdf8e8bff32d7c656c85fd23f",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace"
+            ],
+            "name": "Hagrid_vector",
+            "region": "us-east-2",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-19T22:02:19Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "3965536c-2808-4f11-a974-63b53919ec89",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-us-central1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-03-15T04:46:30Z",
+        "dataEndpointUrl": "https://fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-us-central1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-us-central1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-us-central1.apps.astra.datastax.com/api/graphql",
+        "id": "fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec",
+        "info": {
+            "additionalKeyspaces": [
+                "iot",
+                "aviso"
+            ],
+            "capacityUnits": 1,
+            "cloudProvider": "GCP",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "GCP",
+                    "dateCreated": "2024-03-15T04:46:30Z",
+                    "id": "fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-central1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-1/secure-connect-internal-pacp-nv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d329aea87b57984db130bfa1c53500a9629d17758561782cbea21f0708ec1214",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-1/secure-connect-proxy-internal-pacp-nv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=a25c85dc989a0ccb1d70b43425d36e0420a0db614b8b5f61f0810376d6bdb51a",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-1/secure-connect-proxy-pacp-nv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=fa3a564af82b471a10798556de5be3f1c1db9b566438027f357c6c76da4af5ec",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/fc3489d3-03dd-4a1d-b6d9-c8fe4161f1ec-1/secure-connect-pacp-nv.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c4c34349ddb96c1feee7331d5b35dc55bc4534ea4b28c898c531c5f464e75d3f",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "keyspace": "pacp",
+            "keyspaces": [
+                "pacp",
+                "iot",
+                "aviso"
+            ],
+            "name": "pacp_nv",
+            "region": "us-central1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-07-31T15:24:22Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "910e273f-44b1-4eb1-83b9-ce9e20fb1d68",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://032abc0c-e26c-4f0b-9c6e-322eee1016fe-us-east1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-05-23T17:54:38Z",
+        "dataEndpointUrl": "https://032abc0c-e26c-4f0b-9c6e-322eee1016fe-us-east1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://032abc0c-e26c-4f0b-9c6e-322eee1016fe-us-east1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://032abc0c-e26c-4f0b-9c6e-322eee1016fe-us-east1.apps.astra.datastax.com/api/graphql",
+        "id": "032abc0c-e26c-4f0b-9c6e-322eee1016fe",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "GCP",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "GCP",
+                    "dateCreated": "2024-05-23T17:54:38Z",
+                    "id": "032abc0c-e26c-4f0b-9c6e-322eee1016fe-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/032abc0c-e26c-4f0b-9c6e-322eee1016fe-1/secure-connect-internal-demo-dg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c693e4d619cf7453e988526e1a6020b791924dcb659225de6636f1aa0f04295f",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/032abc0c-e26c-4f0b-9c6e-322eee1016fe-1/secure-connect-proxy-internal-demo-dg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=330436feb51c3b5170e6da9a8aab5c49254359192c15ff50920ff86851ad1103",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/032abc0c-e26c-4f0b-9c6e-322eee1016fe-1/secure-connect-proxy-demo-dg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=01e598adb180debdb64c2a7881f5f2cdab61a2d85f10df1333b98cfc24cbd732",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/032abc0c-e26c-4f0b-9c6e-322eee1016fe-1/secure-connect-demo-dg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=77d42a3e260dcffdd89c02fa93ec0afbb48434894813a00e2945df686eb22a64",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "keyspace": "demo_test",
+            "keyspaces": [
+                "demo_test"
+            ],
+            "name": "demo_dg",
+            "region": "us-east1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-05-23T17:54:38Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "5ed2d508-3a24-4900-8862-1d77990c4fbf",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://5301535b-6ded-4819-b243-3face772a484-us-east-2.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-06-07T15:15:27Z",
+        "dataEndpointUrl": "https://5301535b-6ded-4819-b243-3face772a484-us-east-2.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://5301535b-6ded-4819-b243-3face772a484-us-east-2.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://5301535b-6ded-4819-b243-3face772a484-us-east-2.apps.astra.datastax.com/api/graphql",
+        "id": "5301535b-6ded-4819-b243-3face772a484",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2024-06-07T15:15:27Z",
+                    "id": "5301535b-6ded-4819-b243-3face772a484-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-2",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/5301535b-6ded-4819-b243-3face772a484-1/secure-connect-internal-kam-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=e8f0c945bb8297f0f21db66d45ea45d73a3dfde366ad990fac5e82f52719bc0b",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/5301535b-6ded-4819-b243-3face772a484-1/secure-connect-proxy-internal-kam-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=033114deb63a312cc792a6c3486bb13b1f740c84518e348cd84c6f382d78eb4b",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/5301535b-6ded-4819-b243-3face772a484-1/secure-connect-proxy-kam-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=12db037a5a7c27a99b6760812f623da994c9f87c73f9c7441a7f742bc1d016f6",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/5301535b-6ded-4819-b243-3face772a484-1/secure-connect-kam-vector.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=fdd03d6d65543743b727fee3e58548ea753be857735d66c08aca9919deeef960",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace"
+            ],
+            "name": "kam_vector",
+            "region": "us-east-2",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-06-12T17:02:53Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "5ed2d508-3a24-4900-8862-1d77990c4fbf",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-us-east-1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-08-01T14:09:58Z",
+        "dataEndpointUrl": "https://31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-us-east-1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-us-east-1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-us-east-1.apps.astra.datastax.com/api/graphql",
+        "id": "31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2024-08-01T14:09:58Z",
+                    "id": "31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-1/secure-connect-internal-demo-vista-tech.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=627021617b0babd77a5d797a2ac36d66070a09b06959b4da1b7cdef9d79cbd49",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-1/secure-connect-proxy-internal-demo-vista-tech.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=646a740e4a7cf14fbd929e25b73f36b2f35bb3f44074d5cb0a0b08a1f8033445",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-1/secure-connect-proxy-demo-vista-tech.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=76f48f54ac7cde5045be2c47369a67d61488e3dbdaaf4a93feae4351eed83983",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/31ac04ed-7af0-4bb0-ac81-c32bf3f2f2f8-1/secure-connect-demo-vista-tech.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=bfcb1232613043762ffb9a012c7b8d2fa9e501c61d73bfeaca503185db7d74b1",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "keyspace": "iot",
+            "keyspaces": [
+                "iot"
+            ],
+            "name": "demo_vista_tech",
+            "region": "us-east-1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-08-01T14:09:58Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "5ed2d508-3a24-4900-8862-1d77990c4fbf",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://cd67bc1f-e9b3-41d9-a116-be57ce6169b4-us-east-2.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-08-02T13:33:26Z",
+        "dataEndpointUrl": "https://cd67bc1f-e9b3-41d9-a116-be57ce6169b4-us-east-2.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://cd67bc1f-e9b3-41d9-a116-be57ce6169b4-us-east-2.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://cd67bc1f-e9b3-41d9-a116-be57ce6169b4-us-east-2.apps.astra.datastax.com/api/graphql",
+        "id": "cd67bc1f-e9b3-41d9-a116-be57ce6169b4",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2024-08-02T13:33:26Z",
+                    "id": "cd67bc1f-e9b3-41d9-a116-be57ce6169b4-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-2",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/cd67bc1f-e9b3-41d9-a116-be57ce6169b4-1/secure-connect-internal-keith-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d89b3e2507d36e2ccaeae0c56ae69317c2ee7755ff6bb22f8883edaf411489b7",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/cd67bc1f-e9b3-41d9-a116-be57ce6169b4-1/secure-connect-proxy-internal-keith-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1d79dcc0e3d2bb0646bae6199a92f00c8463859d1c3c7faf69d7819ea2ce8b0b",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/cd67bc1f-e9b3-41d9-a116-be57ce6169b4-1/secure-connect-proxy-keith-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=747711c46e915d08853e3a71fb05778ed9b9e56bd692d89cf222bd599a85d082",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/cd67bc1f-e9b3-41d9-a116-be57ce6169b4-1/secure-connect-keith-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=7e945eed1744ba3b7c31737f4dd26029d810816be46e89c8bba808e4194b71b9",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace"
+            ],
+            "name": "keith_moviesplusplus",
+            "region": "us-east-2",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-20T20:42:55Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "41d7e841-b334-4044-bf41-1773d84e5ed0",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://b9af0e31-8b99-4446-8550-c55b7f1ba66c-us-east-2.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-08-13T16:08:19Z",
+        "dataEndpointUrl": "https://b9af0e31-8b99-4446-8550-c55b7f1ba66c-us-east-2.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://b9af0e31-8b99-4446-8550-c55b7f1ba66c-us-east-2.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://b9af0e31-8b99-4446-8550-c55b7f1ba66c-us-east-2.apps.astra.datastax.com/api/graphql",
+        "id": "b9af0e31-8b99-4446-8550-c55b7f1ba66c",
+        "info": {
+            "additionalKeyspaces": [
+                "raggraph"
+            ],
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2024-08-13T16:08:19Z",
+                    "id": "b9af0e31-8b99-4446-8550-c55b7f1ba66c-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-2",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b9af0e31-8b99-4446-8550-c55b7f1ba66c-1/secure-connect-internal-kresar-demos.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=89b1d377757933b4710f918b8328014385780dd14e0c8e428150d330a30e85d2",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b9af0e31-8b99-4446-8550-c55b7f1ba66c-1/secure-connect-proxy-internal-kresar-demos.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=8e5d1c273d97d99f14f0cc7e24916c27cf199cf7304ed97854d07402c2c548f0",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b9af0e31-8b99-4446-8550-c55b7f1ba66c-1/secure-connect-proxy-kresar-demos.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=1064ed8396e43fdba9d7b0b94a5d4a3713acb1062b811fb0fe968a77b2727b64",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b9af0e31-8b99-4446-8550-c55b7f1ba66c-1/secure-connect-kresar-demos.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=6d0ad4eab27ea2adbc33a715a492742b5447c2aaf35a7cbcdc2f69b5f0ffb427",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace",
+                "raggraph"
+            ],
+            "name": "kresar_demos",
+            "region": "us-east-2",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-20T21:02:55Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "41d7e841-b334-4044-bf41-1773d84e5ed0",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://be616921-122c-4ee1-92b0-30284362e2f2-us-east1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-08-13T17:23:10Z",
+        "dataEndpointUrl": "https://be616921-122c-4ee1-92b0-30284362e2f2-us-east1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://be616921-122c-4ee1-92b0-30284362e2f2-us-east1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://be616921-122c-4ee1-92b0-30284362e2f2-us-east1.apps.astra.datastax.com/api/graphql",
+        "id": "be616921-122c-4ee1-92b0-30284362e2f2",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "GCP",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "GCP",
+                    "dateCreated": "2024-08-13T17:23:10Z",
+                    "id": "be616921-122c-4ee1-92b0-30284362e2f2-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be616921-122c-4ee1-92b0-30284362e2f2-1/secure-connect-internal-command-chatter.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=d3f10a4e4fb54b736d55a751a0d7c13ba5a6a6fbe8a56dede993e38f54718354",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be616921-122c-4ee1-92b0-30284362e2f2-1/secure-connect-proxy-internal-command-chatter.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=515412a542decd5dbd4f7cb047d27aa91a52b15542c3913a6ea3dc5be2477499",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be616921-122c-4ee1-92b0-30284362e2f2-1/secure-connect-proxy-command-chatter.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=9855cc82d06070fe572bddc04174f21d4bdefffd2c39bfd1b4a84f02a7afa63e",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be616921-122c-4ee1-92b0-30284362e2f2-1/secure-connect-command-chatter.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=27669f4baa40cdebf1357f2569ca6e38822a73183b25355b9713864334bdc8df",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace"
+            ],
+            "name": "command_chatter",
+            "region": "us-east1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-08-28T02:09:08Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "910e273f-44b1-4eb1-83b9-ce9e20fb1d68",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://b602c566-11ea-4500-862d-2074799d18dd-us-east-2.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-08-26T04:14:26Z",
+        "dataEndpointUrl": "https://b602c566-11ea-4500-862d-2074799d18dd-us-east-2.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://b602c566-11ea-4500-862d-2074799d18dd-us-east-2.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://b602c566-11ea-4500-862d-2074799d18dd-us-east-2.apps.astra.datastax.com/api/graphql",
+        "id": "b602c566-11ea-4500-862d-2074799d18dd",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "AWS",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "AWS",
+                    "dateCreated": "2024-08-26T04:14:26Z",
+                    "id": "b602c566-11ea-4500-862d-2074799d18dd-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east-2",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b602c566-11ea-4500-862d-2074799d18dd-1/secure-connect-internal-pacp-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=c73083418040758e4d670ea1a0bfeef2a4d9017e72b90c11d71ba4f9f5f99310",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b602c566-11ea-4500-862d-2074799d18dd-1/secure-connect-proxy-internal-pacp-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=af9c307a833150234f98fd289a2e238e6c66bf16546d01c957c2daa12a65a7b1",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b602c566-11ea-4500-862d-2074799d18dd-1/secure-connect-proxy-pacp-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=504ee9f92dd252e90131c4fff73481d1ef64d4c7f08516c0dda829a3d4a8bf60",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/b602c566-11ea-4500-862d-2074799d18dd-1/secure-connect-pacp-moviesplusplus.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=6f0124589b8fd2909810225e86262efea79a0205064aaf024459de9ad5b50758",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "dbType": "vector",
+            "keyspace": "default_keyspace",
+            "keyspaces": [
+                "default_keyspace"
+            ],
+            "name": "pacp-moviesplusplus",
+            "region": "us-east-2",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-06T03:02:53Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "910e273f-44b1-4eb1-83b9-ce9e20fb1d68",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "availableActions": [
+            "getCreds",
+            "addDatacenters",
+            "cloneDatabaseFromSnapshot",
+            "terminateDatacenter",
+            "migrateServerlessTenant",
+            "terminate",
+            "addKeyspace",
+            "removeKeyspace",
+            "suspend",
+            "createServerlessMigrationProxy",
+            "removeServerlessMigrationProxy",
+            "updateVectorAgent",
+            "getVectorAgentConfig",
+            "hibernate"
+        ],
+        "cost": {
+            "costPerDayCents": 0,
+            "costPerDayMRCents": 0,
+            "costPerDayParkedCents": 0,
+            "costPerHourCents": 0,
+            "costPerHourMRCents": 0,
+            "costPerHourParkedCents": 0,
+            "costPerMinCents": 0,
+            "costPerMinMRCents": 0,
+            "costPerMinParkedCents": 0,
+            "costPerMonthCents": 0,
+            "costPerMonthMRCents": 0,
+            "costPerMonthParkedCents": 0,
+            "costPerNetworkGbCents": 0,
+            "costPerReadGbCents": 0.1,
+            "costPerWrittenGbCents": 0.1
+        },
+        "cqlshUrl": "https://be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-us-east1.apps.astra.datastax.com/cqlsh",
+        "creationTime": "2024-09-19T17:52:02Z",
+        "dataEndpointUrl": "https://be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-us-east1.apps.astra.datastax.com/api/rest",
+        "grafanaUrl": "https://be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-us-east1.dashboard.astra.datastax.com/d/cloud/dse-cluster-condensed?refresh=30s\u0026orgId=1\u0026kiosk=tv",
+        "graphqlUrl": "https://be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-us-east1.apps.astra.datastax.com/api/graphql",
+        "id": "be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b",
+        "info": {
+            "capacityUnits": 1,
+            "cloudProvider": "GCP",
+            "datacenters": [
+                {
+                    "capacityUnits": 1,
+                    "cloudProvider": "GCP",
+                    "dateCreated": "2024-09-19T17:52:02Z",
+                    "id": "be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-1",
+                    "isPrimary": true,
+                    "name": "dc-1",
+                    "region": "us-east1",
+                    "regionClassification": "standard",
+                    "regionZone": "na",
+                    "requestedNodeCount": 3,
+                    "secureBundleInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-1/secure-connect-internal-fedexdb1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=aa3bcee701c82f274c7848f51672d1c68356cea8b5370c66be4313944ae1a3ef",
+                    "secureBundleMigrationProxyInternalUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-1/secure-connect-proxy-internal-fedexdb1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=92b5b0071b112ca9a8f5ce52c322d56eff383b3ed24ae5ff06f0d59a723c84ea",
+                    "secureBundleMigrationProxyUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-1/secure-connect-proxy-fedexdb1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=fe292cf264dae6961a70ded2c3fc06da920c4164b0ce1fe0b6571fe17c9c73bb",
+                    "secureBundleUrl": "https://datastax-cluster-config-prod.s3.us-east-2.amazonaws.com/be9750bf-cf4b-4d4a-bbd4-e0e5f18e589b-1/secure-connect-fedexdb1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIA2AIQRQ76XML7FLD6%2F20240922%2Fus-east-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20240922T230341Z\u0026X-Amz-Expires=300\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=659988d0101ad3dcd9903a6e713afc20f89060ad736c5e0861ca599fbfc197d8",
+                    "status": "",
+                    "tier": "serverless"
+                }
+            ],
+            "keyspace": "fedexks1",
+            "keyspaces": [
+                "fedexks1"
+            ],
+            "name": "fedexdb1",
+            "region": "us-east1",
+            "tier": "serverless"
+        },
+        "lastUsageTime": "2024-09-19T20:41:03Z",
+        "metrics": {
+            "errorsTotalCount": 0,
+            "liveDataSizeBytes": 0,
+            "readRequestsTotalCount": 0,
+            "writeRequestsTotalCount": 0
+        },
+        "observedStatus": "ACTIVE",
+        "orgId": "96952e6c-7fe0-4210-8cd9-6f72c36e8c56",
+        "ownerId": "mdSDqnDgTFhiHxnJnpXvYBYw",
+        "status": "ACTIVE",
+        "storage": {
+            "displayStorage": 10,
+            "nodeCount": 3,
+            "replicationFactor": 1,
+            "totalStorage": 5
+        },
+        "terminationTime": "0001-01-01T00:00:00Z"
+    }
+]%                 
