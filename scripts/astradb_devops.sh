@@ -1,7 +1,7 @@
 #!/bin/sh
-API_BASE_URL="https://api.astra.datastax.com/v2"
-AUTH_TOKEN="AstraCS:mdSDqnDgTFhiHxnJnpXvYBYw:42ac832b648737e21b18f26a4152ef90b0c6420ab2ddd34ce381140fffcf6478"
-ORG_ID="b716015f-534d-4131-af78-d545b30da237"
+API_BASE_URL=""
+AUTH_TOKEN=""
+ORG_ID="7"
 
 usage() {
     echo "Usage: $0 {get_database|create_database|delete_database} [options]"
